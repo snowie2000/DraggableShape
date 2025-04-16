@@ -14,13 +14,6 @@ object frmMain: TfrmMain
   OldCreateOrder = False
   PixelsPerInch = 96
   TextHeight = 13
-  object lbl1: TLabel
-    Left = 16
-    Top = 8
-    Width = 16
-    Height = 13
-    Caption = 'lbl1'
-  end
   object drgblshp1: TDraggableShape
     Left = 216
     Top = 88
@@ -39,5 +32,12 @@ object frmMain: TfrmMain
     Brush.Color = clRed
     Pen.Style = psClear
     Shape = stCircle
+  end
+  object lbl1: TLabel
+    Left = 16
+    Top = 8
+    Width = 16
+    Height = 13
+    Caption = 'lbl1'
   end
 end
